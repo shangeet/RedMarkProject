@@ -1,0 +1,42 @@
+[
+	{
+		"file": "C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\Source\\RedMarkProject\\RedMarkProject.Build.cs",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\.vscode\\compileCommands_RedMarkProject\\RedMarkProject.255.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\Source\\RedMarkProject\\RedMarkProject.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\.vscode\\compileCommands_RedMarkProject\\RedMarkProject.255.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\Source\\RedMarkProject\\RedMarkProject.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\.vscode\\compileCommands_RedMarkProject\\RedMarkProject.255.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\Source\\RedMarkProject\\RedMarkProjectGameModeBase.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\.vscode\\compileCommands_RedMarkProject\\RedMarkProject.255.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\Source\\RedMarkProject\\RedMarkProjectGameModeBase.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\.vscode\\compileCommands_RedMarkProject\\RedMarkProject.255.rsp"
+		],
+		"directory": "C:\\UnrealEngine\\UE_5.1\\Engine\\Source"
+	}
+]

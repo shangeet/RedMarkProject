@@ -1,0 +1,707 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "RedMarkProject Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RedMarkProject",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\RedMarkProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UnrealEngine\\UE_5.1"
+			}
+		},
+		{
+			"label": "RedMarkProject Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RedMarkProject",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\RedMarkProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RedMarkProject Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UnrealEngine\\UE_5.1"
+			}
+		},
+		{
+			"label": "RedMarkProject Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RedMarkProject",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\RedMarkProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UnrealEngine\\UE_5.1"
+			}
+		},
+		{
+			"label": "RedMarkProject Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RedMarkProject",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\RedMarkProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UnrealEngine\\UE_5.1"
+			}
+		},
+		{
+			"label": "RedMarkProject Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RedMarkProject",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\RedMarkProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RedMarkProject Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UnrealEngine\\UE_5.1"
+			}
+		},
+		{
+			"label": "RedMarkProject Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RedMarkProject",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\RedMarkProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UnrealEngine\\UE_5.1"
+			}
+		},
+		{
+			"label": "RedMarkProject Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RedMarkProject",
+				"Win64",
+				"Development",
+				"C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\RedMarkProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UnrealEngine\\UE_5.1"
+			}
+		},
+		{
+			"label": "RedMarkProject Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RedMarkProject",
+				"Win64",
+				"Development",
+				"C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\RedMarkProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RedMarkProject Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UnrealEngine\\UE_5.1"
+			}
+		},
+		{
+			"label": "RedMarkProject Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RedMarkProject",
+				"Win64",
+				"Development",
+				"C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\RedMarkProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UnrealEngine\\UE_5.1"
+			}
+		},
+		{
+			"label": "RedMarkProject Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RedMarkProject",
+				"Win64",
+				"Test",
+				"C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\RedMarkProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UnrealEngine\\UE_5.1"
+			}
+		},
+		{
+			"label": "RedMarkProject Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RedMarkProject",
+				"Win64",
+				"Test",
+				"C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\RedMarkProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RedMarkProject Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UnrealEngine\\UE_5.1"
+			}
+		},
+		{
+			"label": "RedMarkProject Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RedMarkProject",
+				"Win64",
+				"Test",
+				"C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\RedMarkProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UnrealEngine\\UE_5.1"
+			}
+		},
+		{
+			"label": "RedMarkProject Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RedMarkProject",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\RedMarkProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UnrealEngine\\UE_5.1"
+			}
+		},
+		{
+			"label": "RedMarkProject Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RedMarkProject",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\RedMarkProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RedMarkProject Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UnrealEngine\\UE_5.1"
+			}
+		},
+		{
+			"label": "RedMarkProject Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RedMarkProject",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\RedMarkProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UnrealEngine\\UE_5.1"
+			}
+		},
+		{
+			"label": "RedMarkProject HoloLens Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RedMarkProject",
+				"HoloLens",
+				"Debug",
+				"C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\RedMarkProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UnrealEngine\\UE_5.1"
+			}
+		},
+		{
+			"label": "RedMarkProject HoloLens Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RedMarkProject",
+				"HoloLens",
+				"Debug",
+				"C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\RedMarkProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RedMarkProject HoloLens Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UnrealEngine\\UE_5.1"
+			}
+		},
+		{
+			"label": "RedMarkProject HoloLens Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RedMarkProject",
+				"HoloLens",
+				"Debug",
+				"C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\RedMarkProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UnrealEngine\\UE_5.1"
+			}
+		},
+		{
+			"label": "RedMarkProject HoloLens DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RedMarkProject",
+				"HoloLens",
+				"DebugGame",
+				"C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\RedMarkProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UnrealEngine\\UE_5.1"
+			}
+		},
+		{
+			"label": "RedMarkProject HoloLens DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RedMarkProject",
+				"HoloLens",
+				"DebugGame",
+				"C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\RedMarkProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RedMarkProject HoloLens DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UnrealEngine\\UE_5.1"
+			}
+		},
+		{
+			"label": "RedMarkProject HoloLens DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RedMarkProject",
+				"HoloLens",
+				"DebugGame",
+				"C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\RedMarkProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UnrealEngine\\UE_5.1"
+			}
+		},
+		{
+			"label": "RedMarkProject HoloLens Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RedMarkProject",
+				"HoloLens",
+				"Development",
+				"C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\RedMarkProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UnrealEngine\\UE_5.1"
+			}
+		},
+		{
+			"label": "RedMarkProject HoloLens Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RedMarkProject",
+				"HoloLens",
+				"Development",
+				"C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\RedMarkProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RedMarkProject HoloLens Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UnrealEngine\\UE_5.1"
+			}
+		},
+		{
+			"label": "RedMarkProject HoloLens Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RedMarkProject",
+				"HoloLens",
+				"Development",
+				"C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\RedMarkProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UnrealEngine\\UE_5.1"
+			}
+		},
+		{
+			"label": "RedMarkProject HoloLens Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RedMarkProject",
+				"HoloLens",
+				"Test",
+				"C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\RedMarkProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UnrealEngine\\UE_5.1"
+			}
+		},
+		{
+			"label": "RedMarkProject HoloLens Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RedMarkProject",
+				"HoloLens",
+				"Test",
+				"C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\RedMarkProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RedMarkProject HoloLens Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UnrealEngine\\UE_5.1"
+			}
+		},
+		{
+			"label": "RedMarkProject HoloLens Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RedMarkProject",
+				"HoloLens",
+				"Test",
+				"C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\RedMarkProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UnrealEngine\\UE_5.1"
+			}
+		},
+		{
+			"label": "RedMarkProject HoloLens Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RedMarkProject",
+				"HoloLens",
+				"Shipping",
+				"C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\RedMarkProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UnrealEngine\\UE_5.1"
+			}
+		},
+		{
+			"label": "RedMarkProject HoloLens Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RedMarkProject",
+				"HoloLens",
+				"Shipping",
+				"C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\RedMarkProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RedMarkProject HoloLens Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UnrealEngine\\UE_5.1"
+			}
+		},
+		{
+			"label": "RedMarkProject HoloLens Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RedMarkProject",
+				"HoloLens",
+				"Shipping",
+				"C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\RedMarkProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UnrealEngine\\UE_5.1"
+			}
+		},
+		{
+			"label": "RedMarkProjectEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RedMarkProjectEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\RedMarkProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UnrealEngine\\UE_5.1"
+			}
+		},
+		{
+			"label": "RedMarkProjectEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RedMarkProjectEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\RedMarkProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RedMarkProjectEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UnrealEngine\\UE_5.1"
+			}
+		},
+		{
+			"label": "RedMarkProjectEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RedMarkProjectEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\RedMarkProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UnrealEngine\\UE_5.1"
+			}
+		},
+		{
+			"label": "RedMarkProjectEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RedMarkProjectEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\RedMarkProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UnrealEngine\\UE_5.1"
+			}
+		},
+		{
+			"label": "RedMarkProjectEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RedMarkProjectEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\RedMarkProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RedMarkProjectEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UnrealEngine\\UE_5.1"
+			}
+		},
+		{
+			"label": "RedMarkProjectEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RedMarkProjectEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\RedMarkProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UnrealEngine\\UE_5.1"
+			}
+		},
+		{
+			"label": "RedMarkProjectEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RedMarkProjectEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\RedMarkProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UnrealEngine\\UE_5.1"
+			}
+		},
+		{
+			"label": "RedMarkProjectEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RedMarkProjectEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\RedMarkProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RedMarkProjectEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UnrealEngine\\UE_5.1"
+			}
+		},
+		{
+			"label": "RedMarkProjectEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RedMarkProjectEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\Shantanu\\Documents\\Unreal Projects\\RedMarkProject\\RedMarkProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UnrealEngine\\UE_5.1"
+			}
+		}
+	]
+}
