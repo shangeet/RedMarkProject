@@ -16,11 +16,17 @@ ADoor::ADoor()
 	TriggerBoxComponent->SetCollisionObjectType(ECollisionChannel::ECC_WorldStatic);
 	TriggerBoxComponent->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Ignore);
 	TriggerBoxComponent->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Overlap);
-
 	TriggerBoxComponent->SetBoxExtent(BoxSizeExtent);
 
 	DoorMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("DoorMesh"));
 	DoorMesh->SetupAttachment(GetRootComponent());
+
+	DoorMeshColliderComponent = CreateDefaultSubobject<UBoxComponent>(TEXT("DoorMeshCollider"));
+	DoorMeshColliderComponent->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
+	DoorMeshColliderComponent->SetCollisionObjectType(ECollisionChannel::ECC_WorldDynamic);
+	DoorMeshColliderComponent->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Block);
+	DoorMeshColliderComponent->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Block);
+	DoorMeshColliderComponent->SetupAttachment(DoorMesh);
 
 	// Don't set a rotate value initially
 	GoalDoorRotator = FRotator(0.f, 0.f, 0.f);

@@ -37,6 +37,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Mesh)
 	class UStaticMeshComponent* DoorMesh;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Colliders)
+	class UBoxComponent* DoorMeshColliderComponent;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Customization)
 	float DoorOpenRotation = 150.f;
 
